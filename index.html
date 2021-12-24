@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Daniel Clendenny Portfolio</title>
+    <!-- <script></script> -->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="intro-div">
+        <!-- Naviation Section, Link each href to 
+          corresponding part of page -->
+        <header>
+          <div id="Home"></div>
+          <nav>
+            <a href="#Home">Home</a>
+            <a href="#About">About Daniel</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Coursework">Coursework</a>
+            <a href="#Contact">Contact Me</a>
+          </nav>
+        </header>
+
+        <!-- Header inside Image
+        Image in CSS Documentation -->
+        <h1 class="name">Daniel Clendenny</h1>
+      </div>
+
+      <!-- About me Section, Link with Anchor tag -->
+      <div class="about-div">
+        <div id="About"></div>
+        <h3 class="about-me">About Me</h3>
+        <!-- Grid Layout for about section -->
+        <div class="about-grid">
+          <!-- Head shot image -->
+
+          <div class="headshot-div">
+            <img
+              src="images/clendenny.jpg"
+              alt="Daniel Clendenny Headshot"
+              class="headshot"
+            />
+          </div>
+          <!-- <a
+          href="https://www.linkedin.com/in/danielclendenny/overlay/1635477649460/single-media-viewer/"
+          >Daniel Clendenny's Resume</a
+        > -->
+          <!-- List Description -->
+          <div class="break-text-div">
+            <!-- <br /> -->
+            <b class="break-text-name">Daniel Clendenny</b>
+            <br />
+            <em>Aspiring Front End Web Developer</em>
+            <br />
+            <em>Cyber Security Enthusiast</em>
+            <br />
+            <em>B.S. Computer Science; Finance Minor</em>
+            <br />
+            <em>Susquehanna University</em>
+            <br />
+          </div>
+          <!-- Real Description -->
+          <div class="description-div">
+            <p class="description">
+              I am a Senior Computer Science major with a minor in Finance at
+              <a target="_blank" href="https://www.susqu.edu/" class="Sus-link"
+                >Susquehanna Univeristy</a
+              >. I have a passion for Cyber Security and Front-End Web
+              Development, and I have been curiously exploring these fields over
+              my past four years. I have coding expereince in the Salesforce
+              Lightning Component Framework from my intern position with
+              <a
+                target="_blank"
+                href="https://hexaviewtech.com/"
+                class="Hex-link"
+                >Hexaview Technologies</a
+              >
+              as a Salesforce Developer.
+            </p>
+          </div>
+        </div>
+        <!-- <div id="Experience">
+          <h3>Experience</h3>
+
+          <img
+            src="images/hexaview.jpg"
+            alt="Hexaview Technologies Logo"
+            class="hexaview-img"
+          />
+          <p class="hexaview-paragraph">
+            Over the past seven months, I had a rare opportunity that I could
+            not pass up. With the help of Hexaview Technologies I trained to
+            become a Salesforce Developer. After a few months of learning the
+            Salesforce system, I took the test to become a
+            <a class="Salesforce-link" href="https://trailblazer.me/id/ty5t"
+              >Salesforce Certified Administrator</a
+            >. Shortly after passing this certification exam I began working
+            with Hexaview Technologies as a Salesforce Developer.
+          </p>
+        </div> -->
+        <!-- End of grid layout for about section -->
+      </div>
+
+      <div id="Experience" class="experience-div">
+        <h3>Experience</h3>
+
+        <img
+          src="images/hexaview.jpg"
+          alt="Hexaview Technologies Logo"
+          class="hexaview-img"
+        />
+        <p class="hexaview-paragraph">
+          Over the past seven months, I had a rare opportunity that I could not
+          pass up. With the help of Hexaview Technologies I trained to become a
+          Salesforce Developer. After a few months of learning the Salesforce
+          system, I took the test to become a
+          <a
+            target="_blank"
+            class="Salesforce-link"
+            href="https://trailblazer.me/id/ty5t"
+            >Salesforce Certified Administrator</a
+          >. Shortly after passing this certification exam, I began working with
+          Hexaview Technologies as a Salesforce Developer. As a Salesforce
+          Developer, I primarily worked with the Salesforce Lightning Component
+          Stack.
+        </p>
+      </div>
+      <!-- coursework Section -->
+      <!-- <div class="course-section"> -->
+      <div id="Coursework" class="coursework-div">
+        <h3 class="coursework">Coursework</h3>
+        <!-- coursework Grid Layout -->
+        <div class="coursework-grid">
+          <div class="class-one">
+            <h4>Algorithms</h4>
+          </div>
+          <div class="class-two">
+            <h4>River Hawk Fund</h4>
+          </div>
+          <div class="class-three">
+            <h4>Data Networks</h4>
+          </div>
+          <div class="class-one-desc">
+            <p>
+              Researched the most efficient design and implementation of
+              algorithms. We spent the semester writing Java and C++ code with
+              Visual Studio Code. With the help of our professor, we created
+              various sorting and searching algorithms, and analyzed how these
+              algorithms could be utilized to solve graphical and mathematical
+              problems.
+            </p>
+          </div>
+          <div class="class-two-desc">
+            <p>
+              Managed a $260,000 portfolio with eight other students. We created
+              Discounted Cash Flow models of the companies we were interested in
+              adding to the portfolio. Based on the intrinsic value found from
+              our DCF model's and sensitivity analyses of the stock, we would
+              determine whether the stocks were worth pursuing.
+            </p>
+          </div>
+          <div class="class-three-desc">
+            <p>
+              Tested various Internet protocols such as DHCP, DNS, TCP, FTP, and
+              HTTP/HTTPS. Focused on network topology and the keys to
+              maintaining a secure network. We also researched the inner
+              workings of encryption and authentication using public or private
+              keys and digital certificates. Our research was conducted on
+              virtualized operating systems using Oracle Virtual Box.
+            </p>
+          </div>
+          <div class="Capstone">
+            <h4>Senior Colloquium</h4>
+          </div>
+          <div class="honeypot">
+            <p>
+              For the start of my senior year, I had the opportunity to run a
+              semester long research project. Looking to improve my Cyber
+              Security knowledge and skills, I decided to run a virtualized
+              honeypot throughout the semester. Honeypots are inherently
+              insecure servers, designed to be attacked so that system
+              administrators can analyze the results. Based on the data
+              collected from their honeypots, security researchers can then
+              adjust their networks accordingly to prevent future attacks on
+              their main network. My research full and analysis can be found
+              <a
+                class="honey-link"
+                target="_blank"
+                href="https://www.linkedin.com/posts/danielclendenny_senior-capstone-research-activity-6879106492658778113-0YOC"
+                >here</a
+              >.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End of coursework Grid Layout -->
+    </div>
+  </body>
+  <footer>
+    <div id="Contact"></div>
+    <h3 class="contact-heading">Contact Me</h3>
+
+    <div class="contact-grid">
+      <!-- <div class="Honeypot"></p></div> -->
+      <div class="phone-email">
+        <em class="contact-em"
+          >Email: Clendenny@susqu.edu <br />
+          Phone: 973-886-1109 <br />
+          LinkedIn:
+          <a
+            class="linkedin"
+            target="_blank"
+            href="https://www.linkedin.com/in/danielclendenny/"
+            >@Danielclendenny</a
+          >
+        </em>
+      </div>
+      <div class="resume">
+        <a
+          class="download"
+          href="resume.pdf"
+          download="Daniel_Clendenny_resume.pdf"
+        >
+          <button class="resume-button">Download Daniel's Resume</button>
+        </a>
+      </div>
+    </div>
+    <!-- <a href="https://www.overleaf.com/read/xgbhcdnjvfhh">Honeypot Research</a> -->
+  </footer>
+</html>
