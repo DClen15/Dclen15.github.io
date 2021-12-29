@@ -30,6 +30,7 @@ header {
 footer {
   width: 800px;
   margin: 0 auto;
+  font-size: 18px;
 }
 /* Mainly for the formatting of the image */
 .intro-div {
@@ -48,6 +49,7 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: 100px, 100px, 100px;
+  font-size: 18px;
 }
 /* Second grid layout: coursework */
 
@@ -62,13 +64,14 @@ footer {
   /* grid-auto-rows: 100px; */
   grid-gap: 10px;
   grid-row-gap: 20px;
-  /* padding-bottom: 20px; */
+  font-size: 18px;
 }
 /* Final grid layout: Contact */
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
+  font-size: 18px;
 }
 
 /* .Honeypot {
@@ -97,7 +100,7 @@ footer {
 /* coursework grid layout items */
 .class-one {
   grid-column: 1;
-  font-size: 22px;
+  font-size: 1.4em;
   display: flex;
   justify-content: center;
   color: #9fd3c7;
@@ -106,7 +109,7 @@ footer {
 
 .class-two {
   grid-column: 2;
-  font-size: 22px;
+  font-size: 1.4em;
   display: flex;
   justify-content: center;
   color: #9fd3c7;
@@ -115,7 +118,7 @@ footer {
 
 .class-three {
   grid-column: 3;
-  font-size: 22px;
+  font-size: 1.4em;
   display: flex;
   justify-content: center;
   color: #9fd3c7;
@@ -124,28 +127,28 @@ footer {
 
 .class-one-desc {
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 1.1em;
   text-align: center;
-  line-height: 1.25;
+  line-height: 1.4em;
 }
 
 .class-two-desc {
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 1.1em;
   text-align: center;
-  line-height: 1.25;
+  line-height: 1.4em;
 }
 
 .class-three-desc {
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 1.1em;
   text-align: center;
-  line-height: 1.25;
+  line-height: 1.4em;
 }
 
 .Capstone {
   grid-column: 2;
-  font-size: 22px;
+  font-size: 1.5em;
   display: flex;
   justify-content: center;
   color: #9fd3c7;
@@ -155,7 +158,8 @@ footer {
 .honeypot {
   font-family: sans-serif;
   grid-column: 1 / 4;
-  font-size: 18px;
+  font-size: 1.1em;
+  line-height: 1.4em;
   display: flex;
   justify-content: center;
   /* background-color: orange; */
@@ -193,10 +197,12 @@ footer {
 /* Headshot, Resume link, basic info and intro paragraph */
 .about-div {
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
 .experience-div {
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
 .coursework-div {
@@ -225,7 +231,7 @@ h3 {
 h3 {
   color: #9fd3c7;
   background: #385170;
-  font-size: 22px;
+  font-size: 1.7em;
   padding: 15px;
   margin-bottom: 15px;
   text-align: center;
@@ -259,8 +265,8 @@ h3 {
 .description {
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 1.1em;
+  line-height: 1.4em;
 }
 
 /* a {
@@ -271,7 +277,6 @@ a:link {
   color: white;
   display: inline-block;
   padding: 0 15px;
-  font-size: 18px;
 }
 a:visited {
   color: white;
@@ -328,8 +333,8 @@ em {
 
 .hexaview-paragraph {
   /* float: left; */
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 1.1em;
+  line-height: 1.4em;
   color: #ececec;
 }
 
@@ -349,7 +354,7 @@ em {
 .linkedin:active {
   color: #9fd3c7;
   padding: 0;
-  font-size: 18px;
+  font-size: 1em;
 }
 
 .linkedin:hover {
@@ -357,7 +362,7 @@ em {
 }
 
 .contact-em {
-  font-size: 18px;
+  font-size: 1.1em;
   font-style: normal;
   margin-top: 10px;
 }
